@@ -1,20 +1,20 @@
-package com.example.app2;
+package com.example.app3;
 
 import java.util.Map;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.web.client.RestTemplateBuilder;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestHeader;
 import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.client.RestTemplate;
 
 @RestController
 public class DataController {
   Logger logger = LoggerFactory.getLogger(DataController.class);
+  RestTemplate template = new RestTemplateBuilder().build();
 
-  @Autowired
-  MessageReceiver messageReceiver;
 
   @PostMapping("/data")
   Data test(@RequestBody Data data, @RequestHeader Map<String, String> headers) {
@@ -25,9 +25,9 @@ public class DataController {
   @PostMapping("/data1")
   Data test1(@RequestBody Data data, @RequestHeader Map<String, String> headers) {
     logger.error(headers.toString());
-    messageReceiver.run(data);
+    NewRelicUtils.continueDistributedTransaction(data.getTraceId());
+    data.setTraceId(NewRelicUtils.createDistributedTrace());
+    template.postForEntity("http://localhost:8082/data1", data, Data.class);
     return data;
   }
-
-
 }

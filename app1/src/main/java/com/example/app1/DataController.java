@@ -1,5 +1,6 @@
 package com.example.app1;
 
+import java.io.IOException;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -25,7 +26,7 @@ public class DataController {
   }
 
   @PostMapping("/data1")
-  Data test1(@RequestBody Data data) {
+  Data test1(@RequestBody Data data) throws IOException {
     Data data1 = new Data();
     messageSender.send(data1);
     return data1;
