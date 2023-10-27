@@ -4,7 +4,46 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ba51aab8-1267-4cdd-b5e0-b7e3e350f64e" name="Changes" comment="" />
+    <list default="true" id="ba51aab8-1267-4cdd-b5e0-b7e3e350f64e" name="Changes" comment="init">
+      <change afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app1/src/main/java/com/example/app1/MessageSender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app3/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app3/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app3/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app3/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app3/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app3/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app3/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app3/newrelic/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app3/newrelic/THIRD_PARTY_NOTICES.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app3/newrelic/extension-example.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app3/newrelic/extension.xsd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app3/newrelic/logs/newrelic_agent.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app3/newrelic/newrelic-api-javadoc.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app3/newrelic/newrelic-api-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app3/newrelic/newrelic-api.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app3/newrelic/newrelic-java.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app3/newrelic/newrelic.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app3/newrelic/newrelic.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app3/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app3/src/main/java/com/example/app2/App2Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app3/src/main/java/com/example/app2/Data.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app3/src/main/java/com/example/app2/DataController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app3/src/main/java/com/example/app2/MessageReceiver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app3/src/main/java/com/example/app2/NewRelicUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app3/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app3/src/test/java/com/example/app2/App2ApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app1/newrelic/logs/newrelic_agent.log" beforeDir="false" afterPath="$PROJECT_DIR$/app1/newrelic/logs/newrelic_agent.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app1/src/main/java/com/example/app1/DataController.java" beforeDir="false" afterPath="$PROJECT_DIR$/app1/src/main/java/com/example/app1/DataController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app2/newrelic/logs/newrelic_agent.log" beforeDir="false" afterPath="$PROJECT_DIR$/app2/newrelic/logs/newrelic_agent.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app2/src/main/java/com/example/app2/App2Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/app2/src/main/java/com/example/app2/App2Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app2/src/main/java/com/example/app2/DataController.java" beforeDir="false" afterPath="$PROJECT_DIR$/app2/src/main/java/com/example/app2/DataController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/k6/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/k6/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,8 +54,18 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
@@ -33,9 +82,17 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
+    "last_opened_file_path": "/Users/vijaypatidar/IdeaProjects/Tracing"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -45,6 +102,30 @@
       <option name="presentableId" value="Default" />
       <updated>1698390256192</updated>
     </task>
+    <task id="LOCAL-00001" summary="init">
+      <option name="closed" value="true" />
+      <created>1698390570413</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1698390570413</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="init" />
+    <option name="LAST_COMMIT_MESSAGE" value="init" />
   </component>
 </project>
