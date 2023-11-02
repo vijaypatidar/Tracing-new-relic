@@ -1,11 +1,10 @@
 package com.example.app1;
 
-import java.util.List;
 import java.util.Map;
 
 public class Data {
   String username;
-  Map<String, List<String>> traceId;
+  Map<String, String> trace;
 
 
   public String getUsername() {
@@ -16,11 +15,11 @@ public class Data {
     this.username = username;
   }
 
-  public Map<String, List<String>> getTraceId() {
-    return traceId;
+  public Map<String, String> getTrace() {
+    return trace;
   }
 
-  public void setTraceId(Map<String, List<String>> traceId) {
-    this.traceId = traceId;
+  public void setTrace(Map<String, String> trace) {
+    this.trace = trace;
   }
 }

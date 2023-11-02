@@ -25,9 +25,9 @@ public class DataController {
   @PostMapping("/data1")
   Data test1(@RequestBody Data data, @RequestHeader Map<String, String> headers) {
     logger.error(headers.toString());
-    NewRelicUtils.continueDistributedTransaction(data.getTraceId());
-    data.setTraceId(NewRelicUtils.createDistributedTrace());
-    template.postForEntity("http://localhost:8082/data1", data, Data.class);
+//    NewRelicUtils.continueDistributedTransaction(data.getTrace());
+//    data.setTrace(NewRelicUtils.createDistributedTrace());
+//    template.postForEntity("http://localhost:8082/data1", data, Data.class);
     return data;
   }
 }

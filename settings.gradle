@@ -2,3 +2,5 @@ rootProject.name = 'Tracing'
 include("app1")
 include("app2")
 include("app3")
+include 'common'
+
