@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "crack-celerity-357721",
+  "private_key_id": "1b6f552b0fadc299de1c67dba23027919d9fd7e3",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDMOAOT6yLnBk1O\nA2St+DhvhgMOwoPFXIdQEscEHUsk+gym9ZJR1SRFW4UjowtcgQjYRbQ3yI1Ahoq+\n5QUBdGgzqZY1L4Gu7HsOD628qz1MkR47vSkk9byhkZV8xjg+fEZewBnp6WrO/Qln\nTLWzpJ5nwpG1keBQxCp3Hd+oSRubSmhZerxova9ihM85W6D+ae4GWcDjNHZFegnB\nm+fuSeV7joIGgy/wsCfQpC3ASPUIsrA0ewTXja4L/4EXEhtm/M5tDjucHEV6HAgw\n0QVyXz/PSy8eY5jH5HThgTTNrWA/otU2K+u8UTM9VJED4a/DizOS1l9URWP27vdS\nPxJcYPFtAgMBAAECggEACMezvQKpWn4WiW8d6gONBvEfuoe5u0eHeHWGNvK8zgHY\n1L4kJKk286sZUKHsQCA6wsmkaO2SHR8WYgSzWrpS1z3IUSW8u/TmNCw6ZQKGZ9Sp\nacTFOxXm8+9axPrkuihaV4KHhVtdazl307LO8Rf3yNrrAX/HFtHdnYdxm+j2FeQL\nv+XmuzcFcPGVPg1u4arrcg/rxAm65IaNnAcuXK7PJmgvkIho6yWukFyO9GqcWKUN\nLQShP3bdzESX5ZgrqyXGPaSuwJc7nm1FxvO2r5sxbiUSYBe1mGM6Ti2QY21UI6ZM\nCis9m7J5D03utNEWFr5XDBGe06dQI30G1SiDVKHCQQKBgQDlEkVAHT/B1n8DS6tj\nSnzc0PxGzmYbY1Sj31R08kfYMCK8yOXCC1q1/r1rbCO4Fj47D4xj0yN0d5UOm5vJ\nHlhYYgfAZVqNQt8QRqCkMDf0GJ5aYFxddtOv7nS5B5VnjtyB9LIJHw8P+80SHhSx\nRollK60mDzwHs5nWnCiakelmkQKBgQDkOdMIM5bSv3HOgWsbKy0zZuiXjWq5KwB3\n2cm7A8aWUKj6sG2ZLub9pG6uIXzYGtGxAvhLyVF9CvJKjKhzHTvhsu7Srscm4NB3\n+FkdsY2YdKNlN7TDcHy7vHTipzLAqkEJ1SaulxKkePOkkJjpi+YNyGgLZKQ6HpTo\nycWfc4KjHQKBgQDbJtaf1xvHK5nKIluum3XHoByq9Q3Ux/wS5zeaxqwbVTn2mNDP\nCyPWmAbKPeQSWx1gTajHXBlAdKNjHVY2XFSzAd5en9i46rATly5axlLRsbfVyPi0\n5ljxqNV8q5exQokNv3eQqGk1pnX0DllHnK8X3mhB0DNjPt0/55glANFmMQKBgHMi\nkMnkbMQo/Jr3QzdTktwJoHFEUIDVpsjPwCtufjK6wmSluMS8mp9+4q9KCZdkAEFS\nhDyHdWqlqRHe3+Qi7WCxSjZTIfkFFWZQjXSjbBFrVjrr3W9zQhnbuwPU4Y+81E7H\nj1oosKj0s8VjhSDdCNQPNB37SbZgUzMVB3OnbFIpAoGBALdtJc8SPf94SxuGkG3H\nx5hQ64Oc79FgD6bGtM8r7mnZLbjD7cFW+uY7dQBBKWRwveoyfpHmYgHQTmcf3dWj\nSoXKFEiRYdIsEnrUWYMzehfMt28e6hvFsdo1q/QwRwmRNS1T2SNbmz685J50R+8x\nPf4qFETIiaitrlF8JNVse2iw\n-----END PRIVATE KEY-----\n",
+  "client_email": "gcp-dummy@crack-celerity-357721.iam.gserviceaccount.com",
+  "client_id": "110075325047561531854",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/gcp-dummy%40crack-celerity-357721.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

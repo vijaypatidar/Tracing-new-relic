@@ -5,26 +5,52 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ba51aab8-1267-4cdd-b5e0-b7e3e350f64e" name="Changes" comment="added 3 service for testing">
+      <change afterPath="$PROJECT_DIR$/app2/src/main/java/com/example/app3/Dummy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-produce/src/main/java/com/example/demo/DummyController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-produce/src/main/java/com/example/demo/DummyEvent.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app1/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app1/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app1/newrelic/logs/newrelic_agent.log" beforeDir="false" afterPath="$PROJECT_DIR$/app1/newrelic/logs/newrelic_agent.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app1/src/main/java/com/example/app1/Data.java" beforeDir="false" afterPath="$PROJECT_DIR$/app1/src/main/java/com/example/app1/Data.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app1/settings.gradle" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app1/src/main/java/com/example/app1/DataController.java" beforeDir="false" afterPath="$PROJECT_DIR$/app1/src/main/java/com/example/app1/DataController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app1/src/main/java/com/example/app1/MessageSender.java" beforeDir="false" afterPath="$PROJECT_DIR$/app1/src/main/java/com/example/app1/MessageSender.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app1/src/main/java/com/example/app1/NewRelicUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/app1/src/main/java/com/example/app1/NewRelicUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app1/src/main/java/com/example/app1/NewRelicUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/example/NewRelicUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app1/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/app1/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app2/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app2/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app2/newrelic/logs/newrelic_agent.log" beforeDir="false" afterPath="$PROJECT_DIR$/app2/newrelic/logs/newrelic_agent.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app2/settings.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app2/src/main/java/com/example/app3/App2Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/app2/src/main/java/com/example/app3/App3Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app2/src/main/java/com/example/app3/App3Application.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app2/src/main/java/com/example/app3/Data.java" beforeDir="false" afterPath="$PROJECT_DIR$/app2/src/main/java/com/example/app3/Data.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app2/src/main/java/com/example/app3/DataController.java" beforeDir="false" afterPath="$PROJECT_DIR$/app2/src/main/java/com/example/app3/DataController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app2/src/main/java/com/example/app3/NewRelicUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/app2/src/main/java/com/example/app3/NewRelicUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app2/src/test/java/com/example/app3/App2ApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/app2/src/test/java/com/example/app3/App3ApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app3/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/app3/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app3/newrelic/logs/newrelic_agent.log" beforeDir="false" afterPath="$PROJECT_DIR$/app3/newrelic/logs/newrelic_agent.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app3/src/main/java/com/example/app3/Data.java" beforeDir="false" afterPath="$PROJECT_DIR$/app3/src/main/java/com/example/app3/Data.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app3/src/main/java/com/example/app3/MessageReceiver.java" beforeDir="false" afterPath="$PROJECT_DIR$/app3/src/main/java/com/example/app3/MessageReceiver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app3/src/main/java/com/example/app3/NewRelicUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/app3/src/main/java/com/example/app3/NewRelicUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app2/src/main/java/com/example/app3/NewRelicUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app2/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/app2/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app2/src/test/java/com/example/app3/App3ApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/app2/src/test/java/com/example/app3/App2ApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app3/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app3/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app3/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app3/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app3/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app3/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app3/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app3/newrelic/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app3/newrelic/THIRD_PARTY_NOTICES.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app3/newrelic/extension-example.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app3/newrelic/extension.xsd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app3/newrelic/logs/newrelic_agent.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app3/newrelic/newrelic-api-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app3/newrelic/newrelic-api-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app3/newrelic/newrelic-api.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app3/newrelic/newrelic-java.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app3/newrelic/newrelic.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app3/newrelic/newrelic.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app3/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app3/src/main/java/com/example/app3/App2Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/app2/src/main/java/com/example/app3/App2Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app3/src/main/java/com/example/app3/ConsumerUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app3/src/main/java/com/example/app3/Data.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app3/src/main/java/com/example/app3/DataController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app3/src/main/java/com/example/app3/MessageReceiver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app3/src/main/java/com/example/app3/NewRelicUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app3/src/main/resources/application.properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,6 +67,9 @@
     <system id="GRADLE">
       <state>
         <task path="$PROJECT_DIR$/app3">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$">
           <activation />
         </task>
         <projects_view>
@@ -77,26 +106,50 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/vijaypatidar/IdeaProjects/Tracing&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
+    "jdk.selected.JAVA_MODULE": "17",
+    "last_opened_file_path": "/Users/vijaypatidar/IdeaProjects/Tracing/demo-consume/newrelic/extensions",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/demo-consume/newrelic/extensions" />
+      <recent name="$PROJECT_DIR$/demo-produce/newrelic/extensions" />
       <recent name="$PROJECT_DIR$" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example" />
+      <recent name="org.example" />
+    </key>
   </component>
-  <component name="RunManager">
-    <configuration name="App3Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.app3.App3Application" />
+  <component name="RunManager" selected="Application.Consumer">
+    <configuration name="App1 " type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.example.app1.App1Application" />
+      <module name="Tracing.app1.main" />
+      <option name="VM_PARAMETERS" value="-javaagent:&quot;./app1/newrelic/newrelic.jar&quot;" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.app1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="App2" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.example.app3.App2Application" />
       <module name="Tracing.app2.main" />
-      <option name="VM_PARAMETERS" value="-javaagent:&quot;./app3/newrelic/newrelic.jar&quot;" />
+      <option name="VM_PARAMETERS" value="-javaagent:&quot;./app2/newrelic/newrelic.jar&quot;" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.example.app3.*" />
@@ -107,9 +160,90 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Consumer" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.example.demo.DemoApplication" />
+      <module name="Tracing.demo-consume.main" />
+      <option name="VM_PARAMETERS" value="-javaagent:&quot;./demo-consume/newrelic/newrelic.jar&quot;" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Produce" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.example.demo.DemoApplication" />
+      <module name="Tracing.demo-produce.main" />
+      <option name="VM_PARAMETERS" value="-javaagent:&quot;./demo-produce/newrelic/newrelic.jar&quot;" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tracing [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="Tracing [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="clean" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Application.App2" />
+      <item itemvalue="Application.Produce" />
+      <item itemvalue="Application.Consumer" />
+      <item itemvalue="Application.App1 " />
+      <item itemvalue="Gradle.Tracing [build]" />
+      <item itemvalue="Gradle.Tracing [clean]" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.App3Application" />
+        <item itemvalue="Gradle.Tracing [build]" />
+        <item itemvalue="Gradle.Tracing [clean]" />
       </list>
     </recent_temporary>
   </component>
@@ -146,7 +280,15 @@
       <option name="project" value="LOCAL" />
       <updated>1698416293463</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="added 3 service for testing">
+      <option name="closed" value="true" />
+      <created>1698946844516</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1698946844516</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -164,5 +306,16 @@
     <MESSAGE value="init" />
     <MESSAGE value="added 3 service for testing" />
     <option name="LAST_COMMIT_MESSAGE" value="added 3 service for testing" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/demo-consume/src/main/java/com/example/demo/DummyReceiver.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

@@ -22,4 +22,5 @@ public class Data {
   public void setTrace(Map<String, String> trace) {
     this.trace = trace;
   }
+
 }

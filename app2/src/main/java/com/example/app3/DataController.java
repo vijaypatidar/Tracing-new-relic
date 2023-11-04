@@ -15,19 +15,13 @@ public class DataController {
   Logger logger = LoggerFactory.getLogger(DataController.class);
   RestTemplate template = new RestTemplateBuilder().build();
 
-
   @PostMapping("/data")
-  Data test(@RequestBody Data data, @RequestHeader Map<String, String> headers) {
-    logger.error(headers.toString());
-    return data;
-  }
-
-  @PostMapping("/data1")
   Data test1(@RequestBody Data data, @RequestHeader Map<String, String> headers) {
-    logger.error(headers.toString());
-//    NewRelicUtils.continueDistributedTransaction(data.getTrace());
-//    data.setTrace(NewRelicUtils.createDistributedTrace());
-//    template.postForEntity("http://localhost:8082/data1", data, Data.class);
+    logger.error("Data:{}, headers:{}", data, headers);
+    Dummy dummy = new Dummy();
+    dummy.setName(data.getUsername());
+    dummy.setId(dummy.getId());
+    template.postForEntity("http://localhost:8085/send", dummy, Dummy.class);
     return data;
   }
 }

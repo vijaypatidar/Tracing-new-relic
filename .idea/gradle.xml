@@ -13,6 +13,8 @@
             <option value="$PROJECT_DIR$/app2" />
             <option value="$PROJECT_DIR$/app3" />
             <option value="$PROJECT_DIR$/common" />
+            <option value="$PROJECT_DIR$/demo-consume" />
+            <option value="$PROJECT_DIR$/demo-produce" />
           </set>
         </option>
       </GradleProjectSettings>
